@@ -105,10 +105,10 @@ export class AppComponent {
         },
         {
           columns: [
-            //[{ qr: `${this.invoice.customerName}`, fit: '50' }],
-            [{ text: 'Signature', alignment: 'right', italics: true}],
+            { qr: `${this.invoice.customerName}`, fit: 50 },
+            { text: 'Signature', alignment: 'right', italics: true }
           ]
-        },
+        },        
         {
           text: 'Terms and Conditions',
           style: 'sectionHeader'
