@@ -40,7 +40,7 @@ export class AppComponent {
     let docDefinition:TDocumentDefinitions = {
       content: [
         {
-          text: 'ELECTRONIC SHOP',
+          text: 'TECH SHOP',
           fontSize: 16,
           alignment: 'center',
           color: '#047886'
